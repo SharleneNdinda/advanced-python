@@ -1,3 +1,8 @@
+"""The Python interpreter is the only frequent caller of most special methods.
+
+   We Use special methods to leverage the Python Data Model.
+"""
+
 import collections
 
 Card = collections.namedtuple("Card", ["rank", "suit"])
@@ -11,11 +16,11 @@ class FrenchDeck:
         self._cards = [Card(rank, suit) for suit in self.suits for rank in self.ranks]
 
     def __len__(self):
-        """Use special methods to leverage the Python Data Model"""
+        """Get the total number of cards in a deck"""
         return len(self._cards)
 
     def __getitem__(self, postition):
-        """Use special methods to leverage the Python Data Model"""
+        """Get the card located at a given position."""
         return self._cards[postition]
 
 
