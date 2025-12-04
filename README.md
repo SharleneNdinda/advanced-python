@@ -12,7 +12,7 @@
 <h3 align="center"> 🪴 Advanced Python Concepts 🪴 </h3>
 
   <p align="center">
-    Practical examples from the book Fluent Python
+    Practical examples from the book Fluent Python and other practice examples.
   </p>
  
 

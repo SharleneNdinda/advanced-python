@@ -1,6 +1,7 @@
 """The Python interpreter is the only frequent caller of most special methods.
 
-   We Use special methods to leverage the Python Data Model.
+We use special methods to leverage the Python Data Model. This is when we want
+our classes to behave like normal Python data objects.
 """
 
 import collections
