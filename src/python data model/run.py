@@ -1,5 +1,7 @@
-from card_deck import FrenchDeck, spades_high
+from card_deck import FrenchDeck
+from card_deck import spades_high
 from vector import Vector
+
 
 # create card deck
 deck = FrenchDeck()

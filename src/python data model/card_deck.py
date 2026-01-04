@@ -6,6 +6,7 @@ our classes to behave like normal Python data objects.
 
 import collections
 
+
 Card = collections.namedtuple("Card", ["rank", "suit"])
 
 
